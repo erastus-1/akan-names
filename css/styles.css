@@ -1,0 +1,17 @@
+@media screen and(width: 450px){
+       body {
+              background-color: black;
+              color: wheat;
+            }
+}
+@media screen and(width: 720px){
+       body {
+              background-color: wheat;
+              color: black;
+            }
+        h1 {
+             background-image: url(../images/logo.jpg);
+             font-weight: bolder;
+             font-style: normal;
+           }
+}
