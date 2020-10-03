@@ -9,6 +9,7 @@
               background-color: cyan;
               color: darkgrey;
               font-family: serif;
+              background-image: url(../images/background.png);
             }
         h1 { 
              font-weight: bolder;
