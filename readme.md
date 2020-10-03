@@ -13,7 +13,7 @@ Written by kariuki, erastus.
 
 #####CONTACT
 
-You can reach me via;
+For any modification or blockers, You can reach me via;
 
 -Email: erastuskariuki15@gmail.com
 
@@ -27,7 +27,7 @@ Download a code editor e.g Vs code, Atom, Sublime, e.t.c.
 
 ###Set-up
 
-Open (https://erastus-1.github.io/My-Ip/)
+Open https://erastus-1.github.io/akan-names/
 Copy the repository's url. -If you are using Linux, go to the terminal and navigate the folder in which you would like to clone the repository. You shall use the $ git clone (paste url). Press enter. You can now work on the repository using your preferred code editor.
 
 #####TECHNOLOGIES USED
