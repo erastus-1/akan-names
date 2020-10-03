@@ -38,6 +38,16 @@ Copy the repository's url. -If you are using Linux, go to the terminal and navig
 
 -JavaScript
 
+<<<<<<< HEAD
+=======
+-MarkDown
+
+
+#####BDD
+
+Given that the user submits an empty form, the user is alerted to fill the empty fields. The same applies if any of the fields is left empty or not selected. The user is also alerted to enter a valid date, month and year if either of them is invalid. When the user submits a filled form with valid details, the application receives the data and calculates the day of the week and user's Akan name. The user will get their day of the week in which they were born and the Akan name, for example, Your day of birth is Thursday and Akan name is Yaa.
+
+>>>>>>> 6d95dd6b9cca9ea2800f7da1dd333045867055a9
 ######LISENCES
 
 MIT License

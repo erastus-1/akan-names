@@ -6,12 +6,151 @@
         <link href="css/bootstrap.css/css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/styles.css" rel="stylesheet" type="text/css">
      </head>
-       <body> 
-           <div class="jumbotron">
-           <h1>Akan Names</h1>
-           </div>
-             <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
-            <p>In this application you will get to know you Akan name by simply filling you birthday and the gender.</p> 
-              
-        </body>
+       <body>
+         <div class="jumbotron">
+          <h1 class="display-4">Welcome to your Akan Name Generator</h1>
+          <p class="lead">Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.</p>
+          <p>Akan calculator finds the day you where born and the coresponding Akan name based on the date of birth. It is an online calender tool specially programmed to find the exact Akan name of a person or an animal.</p>
+        </div>
+        <div class="continer">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="container">
+                <div class="row">
+                 <div class="col-md-6" >
+                    <h1 style="font-size: 29px;color: green;">Male Akan Name</h1>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Day of the week</th>
+                          <th scope="col">Akan Name</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">sunday</th>
+                          <td>Kwasi</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">monday</th>
+                          <td>Kwado</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Tuesday</th>
+                          <td>Kwabena</td>
+                        <tr>
+                          <th scope="row">Wednesday</th>
+                          <td>Kwaku</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Thursday</th>
+                          <td>Yaw</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Friday</th>
+                          <td>Kofi</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Saturday</th>
+                          <td>Kwame</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="col-md-6" >
+                    <h1 style="font-size: 29px; color: purple;">Female Akan Name</h1>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col">Day of the week</th>
+                          <th scope="col">Akan Name</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">sunday</th>
+                          <td>Akosua</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">monday</th>
+                          <td>Adwoa</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Tuesday</th>
+                          <td>Abenaa</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Wednesday</th>
+                          <td>Akua</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Thursday</th>
+                          <td>Yaa</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Friday</th>
+                          <td>Afua</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Saturday</th>
+                          <td>Ama</td>
+                        </tr>
+                       </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="container">
+                <div class="row">
+                    <form>
+                      <div class="form-group">
+                        <label>Day of birth</label>
+                        <input type="number" class="form-control" id="day"  placeholder="enter day">
+                        <small id="showday" style=color:blue; class="form-text text-muted">enter day of birth e.g 2</small>
+                        <small id="dayError" style="color: red; font-size: 12px;"></small>
+                      </div>
+                      <div class="form-group">
+                        <label>Month of birth</label>
+                        <input type="number" class="form-control" id="month" placeholder="enter month">
+                        <small id="showmonth" style=color:blue; class="form-text text-muted">Enter month e.g 1,12</small>
+                        <small id="monthError" style="color: red; font-size: 12px;"></small>
+
+                      </div>
+                      <div class="form-group">
+                        <label>Year of birth</label>
+                        <input type="number" class="form-control" id="year" placeholder="enter year">
+                        <small id="showyear" style=color:blue; class="form-text text-muted">enter year e.g 1994</small>
+                        <small id="yearError" style="color: red; font-size: 12px;"></small>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="male" value="male" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                          Male
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="female" value="female">
+                        <label class="form-check-label" for="exampleRadios2">
+                         Female
+                        </label>
+                      </div>
+                      <button onclick="myAkangenerator();return false" type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            <div class="col-md-2">
+          <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading" >Provide the required fields to view your akhan name</h4>
+            <p id="show"></p>
+            <hr>
+            <p id="showAkan"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+      <script type="text/javascript" src="./index.js"></script>
 </html>
