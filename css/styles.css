@@ -6,10 +6,9 @@
 }
 @media screen and(width: 720px){
        body {
-              background-color: cyan;
-              color: darkgrey;
+              background-image: url("/images/logo1.jpg");
+              color: darkgrey; 
               font-family: serif;
-              background-image: url(../images/background.png);
             }
         h1 { 
              font-weight: bolder;
