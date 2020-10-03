@@ -6,11 +6,27 @@
 }
 @media screen and(width: 720px){
        body {
-              background-image: url("/images/logo1.jpg");
-              color: darkgrey; 
-              font-family: serif;
+              background-color: linen;
+              font-family: Arial, Helvetica, sans-serif;
             }
         h1 { 
              font-weight: bolder;
+             color: mediumaquamarine;
            }
 }
+body {
+       background-image: url("/images/logo2.jpeg");
+       height: 100%;
+       background-position-y: top;
+       margin-top: 50px;
+       padding-top: 50px;
+       font-family: sans-serif;
+     }
+ h1 {
+      color: black;
+      font-style: italic;
+      font-family: serif;
+    }
+.scope {
+         font-weight: bolder;
+       }    
