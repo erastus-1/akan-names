@@ -1,0 +1,16 @@
+@media screen and(width: 450px){
+       body {
+              background-color: black;
+              color: cornsilk;
+       }
+}
+@media screen and(width: 720px){
+       body {
+              background-color: cyan;
+              color: darkgrey;
+              font-family: serif;
+            }
+        h1 { 
+             font-weight: bolder;
+           }
+}
