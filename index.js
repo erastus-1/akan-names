@@ -50,9 +50,7 @@ function myAkangenerator(){
     if(yearOfBirth.length < 4 || yearOfBirth < 1000 ){
         document.getElementById("yearError").innerText = "year cannot be less than 1000 "
         document.getElementById("showyear").innerText = " "
-    }
-      
-        
+    }   
     
 
 
