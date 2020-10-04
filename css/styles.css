@@ -8,18 +8,15 @@
        body {
               background-color: linen;
               font-family: Arial, Helvetica, sans-serif;
+              color: black;
             }
         h1 { 
              font-weight: bolder;
              color: mediumaquamarine;
            
+        }
 }
 body {
-       background-image: url("/images/logo2.jpg");
-       height: 100%;
-       background-position-y: top;
-       margin-top: 50px;
-       padding-top: 50px;
        font-family: sans-serif;
      }
  h1 {
@@ -27,7 +24,13 @@ body {
       font-style: italic;
       font-family: serif;
     }
-.scope {
-         font-weight: bolder;
-        }
-}
+.table {
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         
+       }
+.alert-success {
+                 background-color: white;
+                 color: blue;
+                 border: none;  
+                 font-style: italic;                 
+                }

@@ -53,7 +53,6 @@ function myAkangenerator(){
     }   
     
 
-
     const akanMale = [
         "Kwasi",
         "Kwadwo",
@@ -87,8 +86,10 @@ function myAkangenerator(){
         }
        
     }
-
-
+    document.getElementById("day").value = ""
+    document.getElementById("month").value = ""
+    document.getElementById("year").value = ""
+    
     return yourAkhan
 
 
