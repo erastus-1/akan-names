@@ -29,7 +29,7 @@ body {
          
        }
 .alert-success {
-                 background-color: white;
+                 background-color: lightgray;
                  color: blue;
                  border: none;  
                  font-style: italic;                 

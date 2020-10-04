@@ -20,7 +20,7 @@ function myAkangenerator(){
     if(userDayOfBirth===undefined){
         document.getElementById("show").innerText = ``  
     } else {
-        document.getElementById("show").innerText = `you were born on a ${userDayOfBirth}`
+        document.getElementById("show").innerText = `You were born on a ${userDayOfBirth}`
     }
    
     
