@@ -91,7 +91,5 @@ function myAkangenerator(){
     document.getElementById("year").value = ""
     
     return yourAkhan
-
-
 }
 
