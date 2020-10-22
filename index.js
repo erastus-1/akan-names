@@ -89,7 +89,7 @@ function myAkangenerator(){
     document.getElementById("day").value = ""
     document.getElementById("month").value = ""
     document.getElementById("year").value = ""
+    document.getElementById("showAkan").innerHTML=""
     
     return yourAkhan
 }
-
