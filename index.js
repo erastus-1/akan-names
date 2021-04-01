@@ -1,10 +1,10 @@
 function myAkangenerator(){
-    let yourAkhan
+    let yourAkan
     let userDate
     var dayOfBirth = document.getElementById("day").value
-    var monthofBirth = document.getElementById("month").value
+    var monthOfBirth = document.getElementById("month").value
     var yearOfBirth = document.getElementById("year").value
-    userDate= monthofBirth +"/"+dayOfBirth+"/"+yearOfBirth
+    userDate= monthOfBirth +"/"+dayOfBirth+"/"+yearOfBirth
     var ourDate = new Date(userDate).getDay()
     var weekday = new Array(7);
     weekday[0] = "Sunday";
@@ -89,5 +89,5 @@ function myAkangenerator(){
     document.getElementById("year").value = ""
     document.getElementById("showAkan").innerHTML=""
     
-    return yourAkhan
+    return yourAkan
 }
