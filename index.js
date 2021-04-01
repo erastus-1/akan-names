@@ -1,5 +1,3 @@
-
-
 function myAkangenerator(){
     let yourAkhan
     let userDate
